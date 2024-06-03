@@ -4,19 +4,16 @@
 | (_| (_| | | (__| |_| | | (_| | || (_) | |   
  \___\__,_|_|\___|\__,_|_|\__,_|\__\___/|_|                                          
 ```
-
 README LANGUAGES [ [English](README.md) | [**中文**](README_zh_CN.md)  ]
 
-# **calculator 计算器**
+# **Calculator 计算器**  (C11 & GTK4)
 
-
-_江苏大学物联网工程专业C语言编程课程的学校实训作业。_
-
-基于 C11 语言的轻量计算器应用程序，可以执行基本的算术运算。
+一个轻量的计算器应用程序，基于 C11 语言，使用 [GTK4](https://www.gtk.org/) 作为图形界面库，可以执行基本的算术运算。
 
 ![演示](.doc/demo.png)
 
-若您有任何问题或建议，欢迎通过电子邮件 [**carm@carm.cc**](mailto:carm@carm.cc)  联系我，或使用 [**议题**](https://github.com/CarmJos/calculator/issues/new) (强力推荐) 向我提问。
+若您有任何问题或建议，欢迎通过电子邮件 [**carm@carm.cc**](mailto:carm@carm.cc)  联系我，或使用 [**议题
+**](https://github.com/CarmJos/calculator/issues/new) (强力推荐) 向我提问。
 
 ## 特性
 
@@ -26,6 +23,12 @@ _江苏大学物联网工程专业C语言编程课程的学校实训作业。_
 - 支持浮点数。
 - 支持键盘输入。
 - 支持鼠标输入。
+
+## 开发
+
+本项目依赖于 [GTK4](https://www.gtk.org/)，因此在构建和运行之前，请确保您的系统已安装 GTK4 的[相关运行库](https://github.com/tschoonj/GTK-for-Windows-Runtime-Environment-Installer)。
+
+本项目使用 CLion IDE 开发，通过 CMake 进行构建，因此您需要安装 minGW-w64 和 CMake 才可正常编译开发。
 
 ## 开源许可证
 

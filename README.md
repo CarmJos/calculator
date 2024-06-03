@@ -7,17 +7,18 @@
 
 README LANGUAGES [ [**English**](README.md) | [中文](README_zh_CN.md)  ]
 
-# **calculator**
+# **Calculator** (C11 & GTK4)
 
 _School practical work for the subject of Programming Languages,
 in the Internet of Things Engineering course at the Jiangsu University._
 
-A lightweight & simple calculator application that can perform basic arithmetic operations, based on C11 language.
+A lightweight & simple calculator application that can perform basic arithmetic operations, based on C11 language
+with [GTK4](https://www.gtk.org/).
 
 ![demo](.doc/demo.png)
 
 Any questions or suggestions are welcome to contact me
-via email [**carm@carm.cc**](mailto:carm@carm.cc) 
+via email [**carm@carm.cc**](mailto:carm@carm.cc)
 or using [**issues**](https://github.com/CarmJos/calculator/issues/new) (recommend) .
 
 ## Features
@@ -28,6 +29,14 @@ or using [**issues**](https://github.com/CarmJos/calculator/issues/new) (recomme
 - Support for floating-point numbers.
 - Support for keyboard input.
 - Support for mouse input.
+
+## Development
+
+This project depends on [GTK4](https://www.gtk.org/),
+so make sure your system has installed the [related runtime libraries](https://github.com/tschoonj/GTK-for-Windows-Runtime-Environment-Installer).
+
+This project is developed using the CLion IDE and built with CMake, 
+so you need to install minGW-w64 and CMake to compile and develop normally.
 
 ## Open Source Licence
 
