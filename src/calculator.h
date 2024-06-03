@@ -25,8 +25,6 @@ extern double tmp;
 extern bool dot;
 extern int method;
 
-extern char out_array[20];
-
 static const gchar *textbox_get() {
     return gtk_entry_buffer_get_text(gtk_entry_get_buffer(GTK_ENTRY(textbox)));
 }

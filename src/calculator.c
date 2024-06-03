@@ -15,8 +15,6 @@ void parse(char input_array[20]) {
     int dot_index = (int) strlen(input_array);
 
     tmp = 0;
-    memset(out_array, 0, 20);
-
     for (int i = 0; i < dot_index; i++) {
         if (input_array[i] == '.') {
             dot_index = i;
@@ -48,7 +46,6 @@ void parse(char input_array[20]) {
     }
 
     if (input_array[0] == '-') tmp = -tmp;
-    strcpy(out_array, input_array);
 }
 
 void refresh() { // 刷新结果
