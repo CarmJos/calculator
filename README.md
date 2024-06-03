@@ -16,6 +16,10 @@ A lightweight & simple calculator application that can perform basic arithmetic 
 
 ![demo](.doc/demo.png)
 
+Any questions or suggestions are welcome to contact me
+via email [**carm@carm.cc**](mailto:carm@carm.cc) 
+or using [**issues**](https://github.com/CarmJos/calculator/issues/new) (recommend) .
+
 ## Features
 
 - Basic arithmetic operations: addition, subtraction, multiplication, division.

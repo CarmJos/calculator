@@ -14,6 +14,10 @@ _江苏大学物联网工程专业C语言编程课程的学校实训作业。_
 
 基于 C11 语言的轻量计算器应用程序，可以执行基本的算术运算。
 
+![演示](.doc/demo.png)
+
+若您有任何问题或建议，欢迎通过电子邮件 [**carm@carm.cc**](mailto:carm@carm.cc)  联系我，或使用 [**议题**](https://github.com/CarmJos/calculator/issues/new) (强力推荐) 向我提问。
+
 ## 特性
 
 - 基本算术运算：加、减、乘、除。
