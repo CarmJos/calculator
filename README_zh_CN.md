@@ -17,6 +17,8 @@ README LANGUAGES [ [English](README.md) | [**中文**](README_zh_CN.md)  ]
 
 ## 特性
 
+![demo](.doc/demo.gif)
+
 - 基本算术运算：加、减、乘、除。
 - 基本运算：清除、删除、相等。
 - 高级运算：平方根、立方根、阶乘等。

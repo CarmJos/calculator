@@ -23,6 +23,8 @@ or using [**issues**](https://github.com/CarmJos/calculator/issues/new) (recomme
 
 ## Features
 
+![demo](.doc/demo.gif)
+
 - Basic arithmetic operations: addition, subtraction, multiplication, division.
 - Basic operations: clear, delete, and equal.
 - Advanced operations: square root, cubed root, and factorial, etc.
