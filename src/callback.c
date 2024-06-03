@@ -9,57 +9,57 @@ void callback_backspace(GtkWidget *widget, gpointer data) {
 
 void callback_add(GtkWidget *widget, gpointer data) {
     method = METHOD_ADD;
-    output(false);
+    calculate(false);
 }
 
 void callback_sub(GtkWidget *widget, gpointer data) {
     method = METHOD_SUB;
-    output(false);
+    calculate(false);
 }
 
 void callback_mul(GtkWidget *widget, gpointer data) {
     method = METHOD_MUL;
-    output(false);
+    calculate(false);
 }
 
 void callback_div(GtkWidget *widget, gpointer data) {
     method = METHOD_DIV;
-    output(false);
+    calculate(false);
 }
 
 void callback_pow_x_y(GtkWidget *widget, gpointer data) {
     method = METHOD_POW_X_Y;
-    output(false);
+    calculate(false);
 }
 
 void callback_cube(GtkWidget *widget, gpointer data) {
     method = METHOD_CUBE;
-    output(true);
+    calculate(true);
 }
 
 void callback_square(GtkWidget *widget, gpointer data) {
     method = METHOD_SQUARE;
-    output(true);
+    calculate(true);
 }
 
 void callback_log_e(GtkWidget *widget, gpointer data) {
     method = METHOD_LOG_E;
-    output(true);
+    calculate(true);
 }
 
 void callback_log_10(GtkWidget *widget, gpointer data) {
     method = METHOD_LOG_10;
-    output(true);
+    calculate(true);
 }
 
 void callback_factorial(GtkWidget *widget, gpointer data) {
     method = METHOD_FACTORIAL;
-    output(true);
+    calculate(true);
 }
 
 void callback_inverse(GtkWidget *widget, gpointer data) {
     method = METHOD_INVERSE;
-    output(true);
+    calculate(true);
 }
 
 void callback_dot(GtkWidget *widget, gpointer data) {

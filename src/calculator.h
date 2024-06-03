@@ -19,7 +19,7 @@
 
 extern GtkWidget *textbox;
 
-extern double v1;
+extern double value;
 extern double tmp;
 
 extern bool dot;
@@ -47,7 +47,7 @@ void severe(const gchar *info);
 
 void refresh();
 
-void output(bool single);
+void calculate(bool single);
 
 void callback_clear(GtkWidget *widget, gpointer data);
 

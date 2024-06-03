@@ -42,7 +42,7 @@ static void activate(GtkApplication *app, gpointer user_data) {
     // 按钮初始化
     load_button("CR", G_CALLBACK(callback_clear), grid2, 0, 4, 2, 1);
     load_button("<X", G_CALLBACK(callback_backspace), grid2, 2, 4, 1, 1);
-    load_button("=", G_CALLBACK(output), grid2, 3, 4, 3, 1);
+    load_button("=", G_CALLBACK(calculate), grid2, 3, 4, 3, 1);
 
     // 数字按钮绑定
     load_button("+/-", G_CALLBACK(callback_sign), grid2, 2, 3, 1, 1);

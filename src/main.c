@@ -4,7 +4,7 @@
 
 #define APPLICATION_ID "cc.carm.app.calculator"
 
-double v1; // 参与运算的数值，双精度型
+double value; // 参与运算的数值，双精度型
 double tmp; // 用于存储临时值
 
 bool dot = 0; // 当前情况下是否有小数点
