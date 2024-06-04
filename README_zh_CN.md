@@ -28,9 +28,18 @@ README LANGUAGES [ [English](README.md) | [**中文**](README_zh_CN.md)  ]
 
 ## 开发
 
+![GTK](.doc/GTK.png)
+
 本项目依赖于 [GTK4](https://www.gtk.org/)，因此在构建和运行之前，请确保您的系统已安装 GTK4 的[相关运行库](https://github.com/tschoonj/GTK-for-Windows-Runtime-Environment-Installer)。
 
 本项目使用 CLion IDE 开发，通过 CMake 进行构建，因此您需要安装 minGW-w64 和 CMake 才可正常编译开发。
+
+## 设计
+
+- 文件结构：功能分类实现，每一个类负责单独的功能。
+- 界面设计：使用 GTK4 的 CSS 样式表进行界面设计，简洁大方。
+- 逻辑设计：使用状态机设计，实现运算符，方便扩展。
+- 链接设计：使用 GTK4 的信号与槽机制，实现界面与逻辑的分离。
 
 ## 开源许可证
 

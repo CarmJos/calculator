@@ -28,17 +28,26 @@ or using [**issues**](https://github.com/CarmJos/calculator/issues/new) (recomme
 - Basic arithmetic operations: addition, subtraction, multiplication, division.
 - Basic operations: clear, delete, and equal.
 - Advanced operations: square root, cubed root, and factorial, etc.
-- Support for floating-point numbers.
-- Support for keyboard input.
-- Support for mouse input.
+- Based on double numbers.
+- Support for keyboard & mouse input.
+- Simple & Elegant UI.
 
 ## Development
+
+![GTK](.doc/GTK.png)
 
 This project depends on [GTK4](https://www.gtk.org/),
 so make sure your system has installed the [related runtime libraries](https://github.com/tschoonj/GTK-for-Windows-Runtime-Environment-Installer).
 
 This project is developed using the CLion IDE and built with CMake, 
 so you need to install minGW-w64 and CMake to compile and develop normally.
+
+## Design
+
+- **Structure**: Functions are implemented by classification, and each class is responsible for a separate function.
+- **Interface**: Use GTK4's CSS style sheet for interface design, which is simple and elegant.
+- **Logic**: Use state machine design to implement operators for easy expansion.
+- **Link**: Use GTK4's signal and slot mechanism to separate the interface from the logic.
 
 ## Open Source Licence
 
