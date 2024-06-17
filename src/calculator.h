@@ -9,13 +9,14 @@
 #define METHOD_SUB 1
 #define METHOD_MUL 2
 #define METHOD_DIV 3
-#define METHOD_POW_X_Y 4
-#define METHOD_CUBE 9
-#define METHOD_SQUARE 10
-#define METHOD_LOG_E 11
-#define METHOD_LOG_10 12
-#define METHOD_FACTORIAL 13
-#define METHOD_INVERSE 14
+
+#define METHOD_POW_X_Y 10
+#define METHOD_CUBE 11
+#define METHOD_SQUARE 12
+#define METHOD_LOG_E 13
+#define METHOD_LOG_10 14
+#define METHOD_FACTORIAL 15
+#define METHOD_INVERSE 16
 
 extern GtkWidget *textbox;
 

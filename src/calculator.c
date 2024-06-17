@@ -68,6 +68,17 @@ void refresh() { // 刷新结果
 void calculate(bool single) {
     char input[20];
     strcpy(input, textbox_get());
+    if (strlen(input) == 0) {
+        textbox_set("> Calculator by @CarmJos.");
+        return;
+    }
+
+    // 如果输入的开头是>，则清空文本框
+    if (input[0] == '>') {
+        textbox_set("");
+        return;
+    }
+
     parse(input);
 
     if (!single && value == 0) { // 无先前数值，则等待下一次输入
